@@ -2,7 +2,7 @@
 # A simple shell script to perform basic arithmetic operations
 
 # Prompt user for two numbers
-read -p "Enter first number: " num11"
+read -p "Enter first number: " num111"
 read -p "Enter second number: " num2
 
 # Validate that inputs are numbers (integer or decimal)
