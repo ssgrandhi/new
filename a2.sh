@@ -3,7 +3,7 @@
 
 # Prompt user for two numbers
 read -p "Enter first number: " num1
-read -p "Enter second number: " num2
+read -p "Enter second number: " num211"
 
 # Validate that inputs are numbers (integer or decimal)
 if ! [[ "$num1" =~ ^-?[0-9]+(\.[0-9]+)?$ && "$num2" =~ ^-?[0-9]+(\.[0-9]+)?$ ]]; then
