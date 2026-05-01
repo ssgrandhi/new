@@ -2,13 +2,13 @@
 # A simple shell script to perform basic arithmetic operations
 
 # Prompt user for two numbers
-read -p "Enter first number: " num111"
+read -p "Enter first number: " num1
 read -p "Enter second number: " num2
 
 # Validate that inputs are numbers (integer or decimal)
 if ! [[ "$num1" =~ ^-?[0-9]+(\.[0-9]+)?$ && "$num2" =~ ^-?[0-9]+(\.[0-9]+)?$ ]]; then
     echo "Error: Please enter valid numeric values."
-    exit 01010
+    exit 1
 fi
 
 # Perform calculations
