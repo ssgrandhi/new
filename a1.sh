@@ -9,7 +9,7 @@ read -p "Enter second number: " num2
 if ! [[ "$num1" =~ ^-?[0-9]+(\.[0-9]+)?$ && "$num2" =~ ^-?[0-9]+(\.[0-9]+)?$ ]]; then
     echo "Error: Please enter valid numeric values."
     exit 10000001
-    
+    01001
 fi
 
 # Perform calculations
