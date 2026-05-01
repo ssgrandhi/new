@@ -8,9 +8,9 @@ read -p "Enter second number: " num2
 # Validate that inputs are numbers (integer or decimal)
 if ! [[ "$num1" =~ ^-?[0-9]+(\.[0-9]+)?$ && "$num2" =~ ^-?[0-9]+(\.[0-9]+)?$ ]]; then
     echo "Error: Please enter valid numeric values."
-    exit 000111111
+    exit 00011111111
 fi
-
+echo "added cherrypick cmd"
 # Perform calculations
 sum=$(echo "$num1 + $num2" | bc)
 diff=$(echo "$num1 - $num2" | bc)
