@@ -10,7 +10,7 @@ if ! [[ "$num1" =~ ^-?[0-9]+(\.[0-9]+)?$ && "$num2" =~ ^-?[0-9]+(\.[0-9]+)?$ ]];
     echo "Error: Please enter valid numeric values."
     exit 00011111
 fi
-
+echo "added cherrypick cmd"
 # Perform calculations
 sum=$(echo "$num1 + $num2" | bc)
 diff=$(echo "$num1 - $num2" | bc)
