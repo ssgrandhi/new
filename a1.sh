@@ -8,7 +8,7 @@ read -p "Enter second number: " num2
 # Validate that inputs are numbers (integer or decimal)
 if ! [[ "$num1" =~ ^-?[0-9]+(\.[0-9]+)?$ && "$num2" =~ ^-?[0-9]+(\.[0-9]+)?$ ]]; then
     echo "Error: Please enter valid numeric values."
-    exit 100000
+    exit 1000000
 fi
 
 # Perform calculations
